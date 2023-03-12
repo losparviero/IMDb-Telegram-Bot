@@ -1,7 +1,7 @@
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
 dotenv.config();
-import { Bot, webhookCallback, HttpError, GrammyError } from "grammy";
-import imdb from "name-to-imdb";
+const { Bot, webhookCallback, HttpError, GrammyError } = require("grammy");
+const imdb = require("name-to-imdb");
 
 // Bot
 

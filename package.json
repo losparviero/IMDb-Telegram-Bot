@@ -3,6 +3,5 @@
 		"dotenv": "^16.0.3",
 		"grammy": "^1.15.1",
 		"name-to-imdb": "^3.0.4"
-	},
-	"type": "module"
+	}
 }
