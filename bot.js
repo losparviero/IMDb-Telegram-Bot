@@ -129,7 +129,6 @@ bot.on("message", async (ctx) => {
         .catch(async (e) => {
           await ctx.reply(`An error occurred.\nError:${e.message}`);
         });
-      console.log(inf);
     });
   } catch (error) {
     if (error instanceof GrammyError) {
